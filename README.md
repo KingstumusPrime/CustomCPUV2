@@ -4,7 +4,7 @@ This project is a continuation of my [custom CPU](https://github.com/KingstumusP
 
 ## Specs
 
-[CPU specs]() | [PPU specs]()
+[CPU specs](https://github.com/KingstumusPrime/CustomCPUV2?tab=readme-ov-file#cpu) | [PPU specs](https://github.com/KingstumusPrime/CustomCPUV2?tab=readme-ov-file#ppu)
 
 ### CPU
 
