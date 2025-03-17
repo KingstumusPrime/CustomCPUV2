@@ -93,9 +93,7 @@ Bit  4: Set the selected flag to the value in bit 3.
 
 The PPU can be found in the circuit titled "ppu". You can see an example of it connected to a CPU in the full build. 
 
-```
-NOTE: this CPU in full build has some huge bugs given the speed of the CPU and lack of an emulator it is recomended to ignore this PPU)
-```
+> NOTE: this CPU in full build has some huge bugs given the speed of the CPU and lack of an emulator it is recomended to ignore this PPU as a programmer
 
 To communicate with the PPU, use the upper three bits of the RAM address, then write the value. You can write to the PPU just like you would write to RAM. The PPU is capable of drawing simple glyphs to the screen, with the first 26 containing the alphabet, the next 10 being numbers, and the rest being blank.
 
