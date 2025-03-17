@@ -15,61 +15,61 @@ The CPU can be found in CPUV3 this is the most functional out of all of them and
 * 16 bit program rom
 * 16 bit jumps
 
-#### Instructions
+#### Instructions<br/>
 
-X   : ILLEGAL OPCODE
-@   : MEM WRTE
-$   : CONSTANT
-" " : Mem Value
+X   : ILLEGAL OPCODE<br/>
+@   : MEM WRTE<br/>
+$   : CONSTANT<br/>
+" " : Mem Value<br/>
 
-=========== A
-LDA $  0x04
-LDA    0x06
-ADC $  0x05
-ADC    0x07
-SBC $  0x0D (value plus 1)
-SBC    0x0F (value plus 1)
-ADC @$ 0x01 X (stores result at P1)
-SBC @$ 0x09 X (stores result at P1)
-STA @  0x03 
-NOT $  0x0C
-NOT    0x0D
-NOP    0x02
-=========== 8 bit jump
-JMP $  0x10
-BCA $  0x11
-BZE $  0x12
-BNE $  0x13
-NOP $  0x14
-BNC $  0x15 (Branch not carry)
-BNZ $  0x16 (BRANCH not zero)
+=========== A<br/>
+LDA $  0x04<br/>
+LDA    0x06<br/>
+ADC $  0x05<br/>
+ADC    0x07<br/>
+SBC $  0x0D (value plus 1)<br/>
+SBC    0x0F (value plus 1)<br/>
+ADC @$ 0x01 X (stores result at P1)<br/>
+SBC @$ 0x09 X (stores result at P1)<br/>
+STA @  0x03 <br/>
+NOT $  0x0C<br/>
+NOT    0x0D<br/>
+NOP    0x02<br/>
+=========== 8 bit jump<br/>
+JMP $  0x10<br/>
+BCA $  0x11<br/>
+BZE $  0x12<br/>
+BNE $  0x13<br/>
+NOP $  0x14<br/>
+BNC $  0x15 (Branch not carry)<br/>
+BNZ $  0x16 (BRANCH not zero)<br/>
 BPO $  0x17 (Branch if positive)
-CLC    0x19
-SEC    0x1D
-CLZ    0x1A
-SEZ    0x1E
-CLN    0x1B
-SEN    0x1F
-=========== X
-LDX $  0x24
-LDX    0x26
-ADX $  0x25
-ADX    0x27
-SBX $  0x2D
-SBX    0x2F
-ADX @$ 0x21 X (stores result at P1)
-SBX @$ 0x29 X (stores result at P1)
-STX @  0x23 
-TAX @  0x2C (two bytes long P1 ignored)
-=========== 16 bit jump
-JMP $  0x30
-BCA $  0x31
-BZE $  0x32
-BNE $  0x33
-NOP $  0x34
-BNC $  0x35 (Branch not carry)
-BNZ $  0x36 (BRANCH not zero)
-BPO $  0x37 (Branch if positive)
+CLC    0x19<br/>
+SEC    0x1D<br/>
+CLZ    0x1A<br/>
+SEZ    0x1E<br/>
+CLN    0x1B<br/>
+SEN    0x1F<br/>
+=========== X<br/>
+LDX $  0x24<br/>
+LDX    0x26<br/>
+ADX $  0x25<br/>
+ADX    0x27<br/>
+SBX $  0x2D<br/>
+SBX    0x2F<br/>
+ADX @$ 0x21 X (stores result at P1)<br/>
+SBX @$ 0x29 X (stores result at P1)<br/>
+STX @  0x23 <br/>
+TAX @  0x2C (two bytes long P1 ignored)<br/>
+=========== 16 bit jump<br/>
+JMP $  0x30<br/>
+BCA $  0x31<br/>
+BZE $  0x32<br/>
+BNE $  0x33<br/>
+NOP $  0x34<br/>
+BNC $  0x35 (Branch not carry)<br/>
+BNZ $  0x36 (BRANCH not zero)<br/>
+BPO $  0x37 (Branch if positive)<br/>
 
 #### bit-by-bit
 
