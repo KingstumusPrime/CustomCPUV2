@@ -31,7 +31,7 @@ SBC $  0x0D (value plus 1)<br/>
 SBC    0x0F (value plus 1)<br/>
 ADC @$ 0x01 X (stores result at P1)<br/>
 SBC @$ 0x09 X (stores result at P1)<br/>
-STA @  0x03 <br/>
+STA @  0x03<br/>
 NOT $  0x0C<br/>
 NOT    0x0D<br/>
 NOP    0x02<br/>
@@ -43,7 +43,7 @@ BNE $  0x13<br/>
 NOP $  0x14<br/>
 BNC $  0x15 (Branch not carry)<br/>
 BNZ $  0x16 (BRANCH not zero)<br/>
-BPO $  0x17 (Branch if positive)
+BPO $  0x17 (Branch if positive)<br/>
 CLC    0x19<br/>
 SEC    0x1D<br/>
 CLZ    0x1A<br/>
@@ -59,7 +59,7 @@ SBX $  0x2D<br/>
 SBX    0x2F<br/>
 ADX @$ 0x21 X (stores result at P1)<br/>
 SBX @$ 0x29 X (stores result at P1)<br/>
-STX @  0x23 <br/>
+STX @  0x23<br/>
 TAX @  0x2C (two bytes long P1 ignored)<br/>
 =========== 16 bit jump<br/>
 JMP $  0x30<br/>
