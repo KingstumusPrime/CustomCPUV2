@@ -1,6 +1,6 @@
 # Custom CPU V2
 
-This project is a continuation of my [custom CPU](https://github.com/KingstumusPrime/Custom-CPU-V1/). It was a bit of a "CPU Jam," with me making the CPU in three days, the PPU in three more, and spending one or two days wrapping things up. Instead of following a tutorial, I wrote this one completely from scratch with no outside resources. It taught me a lot more about CPU architecture, and I was finally able to sync everything to the clock, something I had a lot of trouble with on the first CPU. I also learned a lot more about staying organized and tried naming my components and tying debug output to most of the registers. This one also had a PPU, which I had a ton of fun making.
+This project is a continuation of my [custom CPU](https://github.com/KingstumusPrime/Custom-CPU-V1/). It was a bit of a "CPU jam," with me making the CPU in three days, the PPU in three more, and spending one or two days wrapping things up. Instead of following a tutorial, I wrote this one completely from scratch with no outside resources. It taught me a lot more about CPU architecture, and I was finally able to sync everything to the clock, something I had a lot of trouble with on the first CPU. I also learned a lot more about staying organized and tried naming my components and tying debug output to most of the registers. This one also had a PPU, which I had a ton of fun making.
 
 ## Gallary
 
