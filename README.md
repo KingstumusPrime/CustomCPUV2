@@ -2,6 +2,20 @@
 
 This project is a continuation of my [custom CPU](https://github.com/KingstumusPrime/Custom-CPU-V1/). It was a bit of a "CPU Jam," with me making the CPU in three days, the PPU in three more, and spending one or two days wrapping things up. Instead of following a tutorial, I wrote this one completely from scratch with no outside resources. It taught me a lot more about CPU architecture, and I was finally able to sync everything to the clock, something I had a lot of trouble with on the first CPU. I also learned a lot more about staying organized and tried naming my components and tying debug output to most of the registers. This one also had a PPU, which I had a ton of fun making.
 
+## Gallary
+
+### CPU
+
+![CPUv2CPU](https://github.com/user-attachments/assets/d7ae6f71-6609-4df6-8db3-7ac6bc890af7)
+
+### PPU
+
+![CPUv2PPU](https://github.com/user-attachments/assets/72216b19-578a-4223-83e0-799f49bc6a37)
+
+### Full Build
+
+![CPUv2](https://github.com/user-attachments/assets/4d44621e-d2ca-4bbd-a3c2-2b4c876a87e4)
+
 ## Specs
 
 [CPU specs](https://github.com/KingstumusPrime/CustomCPUV2?tab=readme-ov-file#cpu) | [PPU specs](https://github.com/KingstumusPrime/CustomCPUV2?tab=readme-ov-file#ppu)
